@@ -1,0 +1,20 @@
+@import "variables";
+
+body {
+  background-color: $color-accent;
+  font-family: sans-serif;
+  color: $color-secondary;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 3%;
+}
+
+html {
+  overflow-y: scroll;
+}
