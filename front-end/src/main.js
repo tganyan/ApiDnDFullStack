@@ -5,8 +5,6 @@ import { Provider } from 'react-redux';
 import App from './components/app/app';
 import createStore from './create-store';
 
-import '../style/main.scss';
-
 const store = createStore();
 const root = document.createElement('div');
 document.body.appendChild(root);

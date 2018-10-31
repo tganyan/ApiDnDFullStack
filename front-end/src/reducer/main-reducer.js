@@ -1,8 +1,4 @@
 import { combineReducers } from 'redux';
-import categories from './categroy-reducer';
-import cards from './card-reducer';
+import token from './token-reducer';
 
-export default combineReducers({
-  categories,
-  cards,
-});
+export default combineReducers({ token });
