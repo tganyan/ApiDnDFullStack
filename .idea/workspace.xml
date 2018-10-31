@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1f3160-ff24-475b-8b22-368c1ecc777f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/action/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/action/combat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/action/dungeon-move.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/components/auth-form/auth-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/components/auth-redirect/auth-redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/components/creatures/creatures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/components/death/death.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/components/player/player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/middleware/redux-thunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/reducer/token-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/action/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/action/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/auth-form/auth-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/auth-form/auth-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/auth-redirect/auth-redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/auth-redirect/auth-redirect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/dashboard/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/dashboard/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/landing/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/landing/landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/create-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/create-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/middleware/redux-thunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/middleware/redux-thunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/reducer/main-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/reducer/main-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/reducer/token-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/reducer/token-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,77 +30,87 @@
     <session id="-2021043938">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="14" />
+          <entry key="env" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="js" value="29" />
+          <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="14" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="29" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="1" />
+          <entry key="ESLintLanguageService" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="env" value="16" />
+          <entry key="js" value="3957" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="3957" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/components/auth-form/auth-form.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/components/auth-redirect/auth-redirect.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/reducer/token-reducer.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/middleware/redux-thunk.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/routes.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/action/dungeon-move.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/action/combat.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/components/creatures/creatures.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/components/death/death.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/front-end/src/components/dashboard/dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front-end/src/components/player/player.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/front-end/src/components/landing/landing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -115,20 +128,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front-end/src/components/app/app.js" />
         <option value="$PROJECT_DIR$/front-end/webpack.common.js" />
         <option value="$PROJECT_DIR$/front-end/webpack.dev.js" />
-        <option value="$PROJECT_DIR$/front-end/src/action/auth.js" />
-        <option value="$PROJECT_DIR$/front-end/src/components/auth-form/auth-form.js" />
-        <option value="$PROJECT_DIR$/front-end/src/components/auth-redirect/auth-redirect.js" />
-        <option value="$PROJECT_DIR$/front-end/src/reducer/token-reducer.js" />
-        <option value="$PROJECT_DIR$/front-end/src/middleware/redux-thunk.js" />
-        <option value="$PROJECT_DIR$/front-end/src/routes.js" />
         <option value="$PROJECT_DIR$/front-end/src/action/dungeon-move.js" />
         <option value="$PROJECT_DIR$/front-end/src/action/combat.js" />
         <option value="$PROJECT_DIR$/front-end/src/components/creatures/creatures.js" />
         <option value="$PROJECT_DIR$/front-end/src/components/death/death.js" />
         <option value="$PROJECT_DIR$/front-end/src/components/player/player.js" />
+        <option value="$PROJECT_DIR$/front-end/src/action/auth.js" />
+        <option value="$PROJECT_DIR$/front-end/src/reducer/main-reducer.js" />
+        <option value="$PROJECT_DIR$/front-end/src/create-store.js" />
+        <option value="$PROJECT_DIR$/front-end/src/main.js" />
+        <option value="$PROJECT_DIR$/front-end/src/routes.js" />
+        <option value="$PROJECT_DIR$/front-end/src/middleware/redux-thunk.js" />
+        <option value="$PROJECT_DIR$/front-end/src/reducer/token-reducer.js" />
+        <option value="$PROJECT_DIR$/front-end/src/components/app/app.js" />
+        <option value="$PROJECT_DIR$/front-end/src/components/auth-form/auth-form.js" />
+        <option value="$PROJECT_DIR$/front-end/src/components/auth-redirect/auth-redirect.js" />
+        <option value="$PROJECT_DIR$/front-end/src/components/dashboard/dashboard.js" />
+        <option value="$PROJECT_DIR$/front-end/.env" />
+        <option value="$PROJECT_DIR$/front-end/src/components/landing/landing.js" />
       </list>
     </option>
   </component>
@@ -138,16 +157,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/front-end/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/back-end/package.json" />
       <path value="$PROJECT_DIR$/front-end/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1002" />
-    <option name="y" value="17" />
-    <option name="width" value="899" />
-    <option name="height" value="1049" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="30" />
+    <option name="width" value="1210" />
+    <option name="height" value="1320" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -177,7 +199,7 @@
               <item name="ApiDnDFullStack" type="462c0819:PsiDirectoryNode" />
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiDnDFullStack" type="b2602c69:ProjectViewProjectNode" />
@@ -185,6 +207,31 @@
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiDnDFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiDnDFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiDnDFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiDnDFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiDnDFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiDnDFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +243,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../front-end/31-34-budget-tracker" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -228,24 +275,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540928661130</updated>
-      <workItem from="1540928662324" duration="747000" />
+      <workItem from="1540928662324" duration="1190000" />
+      <workItem from="1540929895999" duration="22000" />
+      <workItem from="1540929965887" duration="7849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="747000" />
+    <option name="totallyTimeSpent" value="9061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="802" y="14" width="719" height="839" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5542522" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.946464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -253,6 +298,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -279,34 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/components/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/action/auth.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/components/auth-form/auth-form.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/components/auth-redirect/auth-redirect.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/reducer/token-reducer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/middleware/redux-thunk.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/action/dungeon-move.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -319,8 +340,130 @@
     <entry file="file://$PROJECT_DIR$/front-end/src/components/death/death.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/components/player/player.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/action/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/reducer/token-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/reducer/main-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/middleware/redux-thunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/create-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/components/auth-form/auth-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/components/auth-redirect/auth-redirect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/components/dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/components/landing/landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
