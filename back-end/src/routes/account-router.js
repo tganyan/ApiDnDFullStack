@@ -10,7 +10,7 @@ const logger = require('../lib/logger');
 const Character = require('../models/character');
 const premade = require('../lib/premade-class');
 const dungeon = require('../lib/descriptions');
-const bearerAuthMiddleware = require('../lib/bearer-auth-middleware');
+const basicAccountMiddleware = require('../lib/basic-account-middleware');
 
 const jsonParser = bodyParser.json();
 const router = module.exports = new express.Router();
@@ -55,7 +55,7 @@ router.post('/api/signup', jsonParser, (request, response, next) => {
 // ===============================+=============================================
 // ACCOUNT LOG-IN
 // ============================================================================
-router.get('/api/login', bearerAuthMiddleware, (request, response, next) => {
+router.get('/api/login', basicAccountMiddleware, (request, response, next) => {
   if (!request.account) {
     return next(new HttpError(400, 'bad request'));
   }
