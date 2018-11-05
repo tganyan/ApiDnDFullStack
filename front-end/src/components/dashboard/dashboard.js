@@ -1,11 +1,24 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 class Dashboard extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
+    console.log('PROPS IN DASHBOARD', this.props.dungeon);
     return (
-        <p>You are logged in, sucka!</p>
+        <div>
+          <p>You are logged in, sucka!</p>
+          {this.props.dungeon ? <p>{this.props.dungeon.currentRoom}</p> : undefined}
+
+        </div>
     );
   }
 }
 
-export default Dashboard;
+const mapStateToProps = state => ({
+  dungeon: state.dungeon,
+});
+export default connect(mapStateToProps, null)(Dashboard);
