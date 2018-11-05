@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import AuthForm from '../auth-form/auth-form';
 import * as routes from '../../routes';
 import * as authActions from '../../action/auth';
+import * as dungeonActions from '../../action/dungeon-move';
 
 class Landing extends React.Component {
 
@@ -19,8 +20,12 @@ class Landing extends React.Component {
 
   handleSignup = (user) => {
     return this.props.pDoSignUp(user)
-        .then(() => {
+        .then((response) => {
           this.props.history.push(routes.DASHBOARD);
+          return response;
+        })
+        .then(() => {
+          return this.props.pGetStatus();
         })
         .catch(console.error);
   };
@@ -60,11 +65,13 @@ class Landing extends React.Component {
 
 const mapStateToProps = state => ({
   token: state.token,
+  dungeon: state.dungeon,
 });
 
 const mapDispatchToProps = dispatch => ({
   pDoSignUp: user => dispatch(authActions.signupRequest(user)),
   pDoLogin: user => dispatch(authActions.loginRequest(user)),
+  pGetStatus: () => dispatch(dungeonActions.dungeonStartRequest()),
 });
 
 Landing.propTypes = {
