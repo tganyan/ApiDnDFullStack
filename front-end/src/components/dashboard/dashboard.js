@@ -11,8 +11,7 @@ class Dashboard extends React.Component {
     return (
         <div>
           <p>You are logged in, sucka!</p>
-          {this.props.dungeon ? <p>{this.props.dungeon.currentRoom}</p> : undefined}
-
+          {this.props.dungeon ? <p>{this.props.dungeon.currentRoom.description}</p> : undefined}
         </div>
     );
   }

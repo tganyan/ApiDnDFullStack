@@ -129,7 +129,7 @@ router.get('/api/status', jsonParser, bearerAuthMiddleware, (request, response, 
           return response.json({
             HP: character.class.hp,
             ac: character.class.ac,
-            currentRoom: character.currentRoom.description,
+            currentRoom: character.currentRoom,
             inventory: character.class.inventory,
           });
         })

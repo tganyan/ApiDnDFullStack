@@ -19,10 +19,12 @@ const router = module.exports = new express.Router();
 // ACCOUNT SIGN-UP
 // ============================================================================
 router.post('/api/signup', jsonParser, (request, response, next) => {
+  console.log('REQUEST BODY', request.body);
   let idToUser = 0;
   if (!request.body.password) {
     return next(new HttpError(401, ''));
   }
+
   return Account.create(request.body.username, request.body.email, request.body.password)
     .then((createdAccount) => {
       delete request.body.password;
