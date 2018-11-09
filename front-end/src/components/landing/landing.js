@@ -42,6 +42,9 @@ class Landing extends React.Component {
       <AuthForm type='signup' onComplete={this.handleSignup}/>
       <p>Already have an account?</p>
       <Link to='/login'>Login to APIDnD</Link>
+      <div>
+        <a href="https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://localhost:4000/oauth/google&scope=openid%20email%20profile&client_id=317149120340-o0dbcuvvq2fg54o3m8tidddo14fj42ou.apps.googleusercontent.com&prompt=consent&response_type=code">LOGIN WITH GOOGLE</a>
+      </div>
     </div>;
 
     const loginJSX = <div>
@@ -49,6 +52,9 @@ class Landing extends React.Component {
       <AuthForm type='login' onComplete={this.handleLogin}/>
       <p> No account? </p>
       <Link to='/signup'>Signup for APIDnD</Link>
+      <div>
+        <a href="https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://localhost:4000/oauth/google&scope=openid%20email%20profile&client_id=317149120340-o0dbcuvvq2fg54o3m8tidddo14fj42ou.apps.googleusercontent.com&prompt=consent&response_type=code">LOGIN WITH GOOGLE</a>
+      </div>
     </div>;
 
     const { location } = this.props;
